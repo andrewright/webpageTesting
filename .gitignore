@@ -1,0 +1,7 @@
+.idea/
+.DS_Store
+node_modules/
+package-lock.json
+tests_output/
+chromedriver.log
+geckodriver.log

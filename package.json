@@ -1,0 +1,23 @@
+{
+  "name": "webpageTesting",
+  "version": "1.0.0",
+  "description": "npm install, npm run start",
+  "main": "nightwatch.conf.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "nightwatch tests/TestTask.js"
+  },
+  "author": "Andrew Garbuzov",
+  "license": "ISC",
+  "bin": {
+    "nightwatch": "./bin/nightwatch"
+  },
+  "devDependencies": {
+    "chromedriver": "^86.0.0",
+    "geckodriver": "^1.20.0",
+    "nightwatch": "^1.4.3",
+    "selenium-server": "^3.141.59"
+  }
+}
